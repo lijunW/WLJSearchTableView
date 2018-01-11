@@ -46,8 +46,8 @@
     /******************************************************************************************/
     __weak typeof(self) weakSelf = self;
     WLJSearchTableviewConfig * searchTableviewConfig  = [[WLJSearchTableviewConfig alloc]init];
-    searchTableviewConfig.searchTime = SearchTimeWhileDidEndEditing;//输入结束时开始搜索
-//    searchTableviewConfig.searchTime = SearchTimeWhileDidChange;//输入变化时开始搜索
+    //searchTableviewConfig.searchTime = SearchTimeWhileDidEndEditing;//输入结束时开始搜索
+    searchTableviewConfig.searchTime = SearchTimeWhileDidChange;//输入变化时开始搜索
     searchTableviewConfig.searchTableViewCellEstablishHeight = 30;//行高
     searchTableviewConfig.maxShowNum = 3;//最大显示行数
     //调用搜索接口，并返回搜索结果
