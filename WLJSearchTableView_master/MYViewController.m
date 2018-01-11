@@ -65,7 +65,7 @@
         //do your code ... eg.:
         UIAlertController * alert =  [UIAlertController alertControllerWithTitle:nil message:[NSString stringWithFormat:@"点击了%@",currentData[@"name"]] preferredStyle:UIAlertControllerStyleAlert];
         [alert addAction:[UIAlertAction actionWithTitle:@"返回" style:UIAlertActionStyleCancel handler:nil]];
-        [self presentViewController:alert animated:YES completion:nil];
+        [weakSelf presentViewController:alert animated:YES completion:nil];
     };
     [textField wlj_enableSeatchTableViewWithConfig:searchTableviewConfig];
     /******************************************************************************************/

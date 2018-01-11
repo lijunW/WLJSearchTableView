@@ -8,8 +8,8 @@ alt="WLJSearchTableView Demo Video" width="480" height="360" border="10" /></a>
 
 GetStart
 ==========================
-#### 导入WLJSearchTableview文件夹进工程
-#### 导入#import "UITextField+WLJSearchTableview.h"
+#### 1.导入WLJSearchTableview文件夹进工程
+#### 2.导入#import "UITextField+WLJSearchTableview.h"
 
 ```objective-C
 __weak typeof(self) weakSelf = self;
