@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E71439D926E47D50F949E16 /* libPods-WLJSearchTableViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AC753B807ED43D1A7DF7C6 /* libPods-WLJSearchTableViewUITests.a */; };
+		6E21213E2005FBA8002F7F80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E21213D2005FBA8002F7F80 /* AppDelegate.m */; };
+		6E2121412005FBA8002F7F80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2121402005FBA8002F7F80 /* ViewController.m */; };
+		6E2121442005FBA8002F7F80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2121422005FBA8002F7F80 /* Main.storyboard */; };
+		6E2121462005FBA8002F7F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2121452005FBA8002F7F80 /* Assets.xcassets */; };
+		6E2121492005FBA8002F7F80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2121472005FBA8002F7F80 /* LaunchScreen.storyboard */; };
+		6E21214C2005FBA8002F7F80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E21214B2005FBA8002F7F80 /* main.m */; };
+		6E2121562005FBA8002F7F80 /* WLJSearchTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2121552005FBA8002F7F80 /* WLJSearchTableViewTests.m */; };
+		6E2121612005FBA9002F7F80 /* WLJSearchTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2121602005FBA9002F7F80 /* WLJSearchTableViewUITests.m */; };
+		6E2121742005FCCA002F7F80 /* UITextField+WLJSearchTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2121732005FCCA002F7F80 /* UITextField+WLJSearchTableview.m */; };
+		6E2121772005FD9A002F7F80 /* WLJSearchTableviewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2121762005FD9A002F7F80 /* WLJSearchTableviewConfig.m */; };
+		6E21217A20060994002F7F80 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E21217920060994002F7F80 /* MYViewController.m */; };
+		98CFE61410A9D7AC97CCBB77 /* libPods-WLJSearchTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0144D00EAD13A2DB52F396D2 /* libPods-WLJSearchTableView.a */; };
+		B8BEB779BA766BFF22C892A9 /* libPods-WLJSearchTableViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7303DF05F25C52754049F6B3 /* libPods-WLJSearchTableViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E2121522005FBA8002F7F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E2121312005FBA8002F7F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2121382005FBA8002F7F80;
+			remoteInfo = WLJSearchTableView;
+		};
+		6E21215D2005FBA9002F7F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E2121312005FBA8002F7F80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2121382005FBA8002F7F80;
+			remoteInfo = WLJSearchTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0144D00EAD13A2DB52F396D2 /* libPods-WLJSearchTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLJSearchTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		060CAFF57FF5527C6DC0B96D /* Pods-WLJSearchTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJSearchTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLJSearchTableViewUITests/Pods-WLJSearchTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17CC1FB2140CE7BAD807287D /* Pods-WLJSearchTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJSearchTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLJSearchTableView/Pods-WLJSearchTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		65AC753B807ED43D1A7DF7C6 /* libPods-WLJSearchTableViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLJSearchTableViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2121392005FBA8002F7F80 /* WLJSearchTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLJSearchTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E21213C2005FBA8002F7F80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E21213D2005FBA8002F7F80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E21213F2005FBA8002F7F80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E2121402005FBA8002F7F80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E2121432005FBA8002F7F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E2121452005FBA8002F7F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E2121482005FBA8002F7F80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E21214A2005FBA8002F7F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E21214B2005FBA8002F7F80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E2121512005FBA8002F7F80 /* WLJSearchTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLJSearchTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2121552005FBA8002F7F80 /* WLJSearchTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJSearchTableViewTests.m; sourceTree = "<group>"; };
+		6E2121572005FBA9002F7F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E21215C2005FBA9002F7F80 /* WLJSearchTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLJSearchTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2121602005FBA9002F7F80 /* WLJSearchTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJSearchTableViewUITests.m; sourceTree = "<group>"; };
+		6E2121622005FBA9002F7F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2121722005FCCA002F7F80 /* UITextField+WLJSearchTableview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+WLJSearchTableview.h"; sourceTree = "<group>"; };
+		6E2121732005FCCA002F7F80 /* UITextField+WLJSearchTableview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WLJSearchTableview.m"; sourceTree = "<group>"; };
+		6E2121752005FD9A002F7F80 /* WLJSearchTableviewConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLJSearchTableviewConfig.h; sourceTree = "<group>"; };
+		6E2121762005FD9A002F7F80 /* WLJSearchTableviewConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLJSearchTableviewConfig.m; sourceTree = "<group>"; };
+		6E21217820060994002F7F80 /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
+		6E21217920060994002F7F80 /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
+		6E21217B20061510002F7F80 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7303DF05F25C52754049F6B3 /* libPods-WLJSearchTableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLJSearchTableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8AB9F5C1434B801CEE9922 /* Pods-WLJSearchTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJSearchTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLJSearchTableViewUITests/Pods-WLJSearchTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D55A9D518BD21A10331B05A /* Pods-WLJSearchTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJSearchTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLJSearchTableView/Pods-WLJSearchTableView.release.xcconfig"; sourceTree = "<group>"; };
+		E983E76539B8BC0C0B02CBAB /* Pods-WLJSearchTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJSearchTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLJSearchTableViewTests/Pods-WLJSearchTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C300B687F60E88139A219B /* Pods-WLJSearchTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLJSearchTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLJSearchTableViewTests/Pods-WLJSearchTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2121362005FBA8002F7F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CFE61410A9D7AC97CCBB77 /* libPods-WLJSearchTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E21214E2005FBA8002F7F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BEB779BA766BFF22C892A9 /* libPods-WLJSearchTableViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2121592005FBA9002F7F80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E71439D926E47D50F949E16 /* libPods-WLJSearchTableViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F4055396E5948F919D6793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17CC1FB2140CE7BAD807287D /* Pods-WLJSearchTableView.debug.xcconfig */,
+				8D55A9D518BD21A10331B05A /* Pods-WLJSearchTableView.release.xcconfig */,
+				E983E76539B8BC0C0B02CBAB /* Pods-WLJSearchTableViewTests.debug.xcconfig */,
+				F0C300B687F60E88139A219B /* Pods-WLJSearchTableViewTests.release.xcconfig */,
+				8C8AB9F5C1434B801CEE9922 /* Pods-WLJSearchTableViewUITests.debug.xcconfig */,
+				060CAFF57FF5527C6DC0B96D /* Pods-WLJSearchTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E2121302005FBA8002F7F80 = {
+			isa = PBXGroup;
+			children = (
+				6E2121702005FC71002F7F80 /* WLJSearchTableview */,
+				6E21213B2005FBA8002F7F80 /* WLJSearchTableView_master */,
+				6E2121542005FBA8002F7F80 /* WLJSearchTableViewTests */,
+				6E21215F2005FBA9002F7F80 /* WLJSearchTableViewUITests */,
+				6E21213A2005FBA8002F7F80 /* Products */,
+				00F4055396E5948F919D6793 /* Pods */,
+				7210DC6E261919E2A42B2F56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E21213A2005FBA8002F7F80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E2121392005FBA8002F7F80 /* WLJSearchTableView.app */,
+				6E2121512005FBA8002F7F80 /* WLJSearchTableViewTests.xctest */,
+				6E21215C2005FBA9002F7F80 /* WLJSearchTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E21213B2005FBA8002F7F80 /* WLJSearchTableView_master */ = {
+			isa = PBXGroup;
+			children = (
+				6E21213C2005FBA8002F7F80 /* AppDelegate.h */,
+				6E21213D2005FBA8002F7F80 /* AppDelegate.m */,
+				6E21213F2005FBA8002F7F80 /* ViewController.h */,
+				6E2121402005FBA8002F7F80 /* ViewController.m */,
+				6E21217820060994002F7F80 /* MYViewController.h */,
+				6E21217920060994002F7F80 /* MYViewController.m */,
+				6E2121422005FBA8002F7F80 /* Main.storyboard */,
+				6E2121452005FBA8002F7F80 /* Assets.xcassets */,
+				6E2121472005FBA8002F7F80 /* LaunchScreen.storyboard */,
+				6E21214A2005FBA8002F7F80 /* Info.plist */,
+				6E21214B2005FBA8002F7F80 /* main.m */,
+				6E21217B20061510002F7F80 /* PrefixHeader.pch */,
+			);
+			path = WLJSearchTableView_master;
+			sourceTree = "<group>";
+		};
+		6E2121542005FBA8002F7F80 /* WLJSearchTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E2121552005FBA8002F7F80 /* WLJSearchTableViewTests.m */,
+				6E2121572005FBA9002F7F80 /* Info.plist */,
+			);
+			path = WLJSearchTableViewTests;
+			sourceTree = "<group>";
+		};
+		6E21215F2005FBA9002F7F80 /* WLJSearchTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E2121602005FBA9002F7F80 /* WLJSearchTableViewUITests.m */,
+				6E2121622005FBA9002F7F80 /* Info.plist */,
+			);
+			path = WLJSearchTableViewUITests;
+			sourceTree = "<group>";
+		};
+		6E2121702005FC71002F7F80 /* WLJSearchTableview */ = {
+			isa = PBXGroup;
+			children = (
+				6E2121752005FD9A002F7F80 /* WLJSearchTableviewConfig.h */,
+				6E2121762005FD9A002F7F80 /* WLJSearchTableviewConfig.m */,
+				6E2121722005FCCA002F7F80 /* UITextField+WLJSearchTableview.h */,
+				6E2121732005FCCA002F7F80 /* UITextField+WLJSearchTableview.m */,
+			);
+			path = WLJSearchTableview;
+			sourceTree = "<group>";
+		};
+		7210DC6E261919E2A42B2F56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0144D00EAD13A2DB52F396D2 /* libPods-WLJSearchTableView.a */,
+				7303DF05F25C52754049F6B3 /* libPods-WLJSearchTableViewTests.a */,
+				65AC753B807ED43D1A7DF7C6 /* libPods-WLJSearchTableViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2121382005FBA8002F7F80 /* WLJSearchTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2121652005FBA9002F7F80 /* Build configuration list for PBXNativeTarget "WLJSearchTableView" */;
+			buildPhases = (
+				DD496F974A0A1D41F3E6455F /* [CP] Check Pods Manifest.lock */,
+				6E2121352005FBA8002F7F80 /* Sources */,
+				6E2121362005FBA8002F7F80 /* Frameworks */,
+				6E2121372005FBA8002F7F80 /* Resources */,
+				73BBCF1D9BC18EBF5C625E85 /* [CP] Embed Pods Frameworks */,
+				EA422C2674FF24EE18160544 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLJSearchTableView;
+			productName = WLJSearchTableView;
+			productReference = 6E2121392005FBA8002F7F80 /* WLJSearchTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E2121502005FBA8002F7F80 /* WLJSearchTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2121682005FBA9002F7F80 /* Build configuration list for PBXNativeTarget "WLJSearchTableViewTests" */;
+			buildPhases = (
+				8CF28A500CF956BE3E989688 /* [CP] Check Pods Manifest.lock */,
+				6E21214D2005FBA8002F7F80 /* Sources */,
+				6E21214E2005FBA8002F7F80 /* Frameworks */,
+				6E21214F2005FBA8002F7F80 /* Resources */,
+				4D7662C51515776EF99C697F /* [CP] Embed Pods Frameworks */,
+				26427878DF38556884635872 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E2121532005FBA8002F7F80 /* PBXTargetDependency */,
+			);
+			name = WLJSearchTableViewTests;
+			productName = WLJSearchTableViewTests;
+			productReference = 6E2121512005FBA8002F7F80 /* WLJSearchTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E21215B2005FBA9002F7F80 /* WLJSearchTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E21216B2005FBA9002F7F80 /* Build configuration list for PBXNativeTarget "WLJSearchTableViewUITests" */;
+			buildPhases = (
+				8348D0865B6B1F1AE631332A /* [CP] Check Pods Manifest.lock */,
+				6E2121582005FBA9002F7F80 /* Sources */,
+				6E2121592005FBA9002F7F80 /* Frameworks */,
+				6E21215A2005FBA9002F7F80 /* Resources */,
+				E13422C74BA32E77D3F1E871 /* [CP] Embed Pods Frameworks */,
+				65A5F4A152A76FB4E238AEA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E21215E2005FBA9002F7F80 /* PBXTargetDependency */,
+			);
+			name = WLJSearchTableViewUITests;
+			productName = WLJSearchTableViewUITests;
+			productReference = 6E21215C2005FBA9002F7F80 /* WLJSearchTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E2121312005FBA8002F7F80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wanglijun;
+				TargetAttributes = {
+					6E2121382005FBA8002F7F80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6E2121502005FBA8002F7F80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E2121382005FBA8002F7F80;
+					};
+					6E21215B2005FBA9002F7F80 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E2121382005FBA8002F7F80;
+					};
+				};
+			};
+			buildConfigurationList = 6E2121342005FBA8002F7F80 /* Build configuration list for PBXProject "WLJSearchTableView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E2121302005FBA8002F7F80;
+			productRefGroup = 6E21213A2005FBA8002F7F80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E2121382005FBA8002F7F80 /* WLJSearchTableView */,
+				6E2121502005FBA8002F7F80 /* WLJSearchTableViewTests */,
+				6E21215B2005FBA9002F7F80 /* WLJSearchTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2121372005FBA8002F7F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2121492005FBA8002F7F80 /* LaunchScreen.storyboard in Resources */,
+				6E2121462005FBA8002F7F80 /* Assets.xcassets in Resources */,
+				6E2121442005FBA8002F7F80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E21214F2005FBA8002F7F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E21215A2005FBA9002F7F80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26427878DF38556884635872 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableViewTests/Pods-WLJSearchTableViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D7662C51515776EF99C697F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableViewTests/Pods-WLJSearchTableViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A5F4A152A76FB4E238AEA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableViewUITests/Pods-WLJSearchTableViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73BBCF1D9BC18EBF5C625E85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableView/Pods-WLJSearchTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8348D0865B6B1F1AE631332A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLJSearchTableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF28A500CF956BE3E989688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLJSearchTableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD496F974A0A1D41F3E6455F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLJSearchTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E13422C74BA32E77D3F1E871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableViewUITests/Pods-WLJSearchTableViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA422C2674FF24EE18160544 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableView/Pods-WLJSearchTableView-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLJSearchTableView/Pods-WLJSearchTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2121352005FBA8002F7F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E21217A20060994002F7F80 /* MYViewController.m in Sources */,
+				6E2121412005FBA8002F7F80 /* ViewController.m in Sources */,
+				6E2121772005FD9A002F7F80 /* WLJSearchTableviewConfig.m in Sources */,
+				6E21214C2005FBA8002F7F80 /* main.m in Sources */,
+				6E2121742005FCCA002F7F80 /* UITextField+WLJSearchTableview.m in Sources */,
+				6E21213E2005FBA8002F7F80 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E21214D2005FBA8002F7F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2121562005FBA8002F7F80 /* WLJSearchTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2121582005FBA9002F7F80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2121612005FBA9002F7F80 /* WLJSearchTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E2121532005FBA8002F7F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2121382005FBA8002F7F80 /* WLJSearchTableView */;
+			targetProxy = 6E2121522005FBA8002F7F80 /* PBXContainerItemProxy */;
+		};
+		6E21215E2005FBA9002F7F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2121382005FBA8002F7F80 /* WLJSearchTableView */;
+			targetProxy = 6E21215D2005FBA9002F7F80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E2121422005FBA8002F7F80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2121432005FBA8002F7F80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E2121472005FBA8002F7F80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2121482005FBA8002F7F80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E2121632005FBA9002F7F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E2121642005FBA9002F7F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2121662005FBA9002F7F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CC1FB2140CE7BAD807287D /* Pods-WLJSearchTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3PXDB5374;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)_master/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WLJSearchTableView_master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifang.WLJSearchTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E2121672005FBA9002F7F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D55A9D518BD21A10331B05A /* Pods-WLJSearchTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y3PXDB5374;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)_master/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/WLJSearchTableView_master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifang.WLJSearchTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E2121692005FBA9002F7F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E983E76539B8BC0C0B02CBAB /* Pods-WLJSearchTableViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLJSearchTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifang.WLJSearchTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLJSearchTableView.app/WLJSearchTableView";
+			};
+			name = Debug;
+		};
+		6E21216A2005FBA9002F7F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C300B687F60E88139A219B /* Pods-WLJSearchTableViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLJSearchTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifang.WLJSearchTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WLJSearchTableView.app/WLJSearchTableView";
+			};
+			name = Release;
+		};
+		6E21216C2005FBA9002F7F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8AB9F5C1434B801CEE9922 /* Pods-WLJSearchTableViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLJSearchTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifang.WLJSearchTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLJSearchTableView;
+			};
+			name = Debug;
+		};
+		6E21216D2005FBA9002F7F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060CAFF57FF5527C6DC0B96D /* Pods-WLJSearchTableViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WLJSearchTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifang.WLJSearchTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WLJSearchTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E2121342005FBA8002F7F80 /* Build configuration list for PBXProject "WLJSearchTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2121632005FBA9002F7F80 /* Debug */,
+				6E2121642005FBA9002F7F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2121652005FBA9002F7F80 /* Build configuration list for PBXNativeTarget "WLJSearchTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2121662005FBA9002F7F80 /* Debug */,
+				6E2121672005FBA9002F7F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2121682005FBA9002F7F80 /* Build configuration list for PBXNativeTarget "WLJSearchTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2121692005FBA9002F7F80 /* Debug */,
+				6E21216A2005FBA9002F7F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E21216B2005FBA9002F7F80 /* Build configuration list for PBXNativeTarget "WLJSearchTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E21216C2005FBA9002F7F80 /* Debug */,
+				6E21216D2005FBA9002F7F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E2121312005FBA8002F7F80 /* Project object */;
+}
