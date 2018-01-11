@@ -2,7 +2,7 @@
 快速添加输入框下拉显示关联搜索关键词
 
 ## GIF animation
-[![WLJSearchTableView](http://ovn0zb2g7.bkt.clouddn.com/WLJSearchTableView.gif)](http://youtu.be/6nhLw6hju2A)
+[![WLJSearchTableView](http://ovn0zb2g7.bkt.clouddn.com/WLJSearchTableView1.gif)](http://youtu.be/6nhLw6hju2A)
 
 ## Video
 <a href="http://ovn0zb2g7.bkt.clouddn.com/WLJSearchTableViewVideo.mov" target="_blank"><img src="http://ovn0zb2g7.bkt.clouddn.com/Simulator%20Screen%20Shot%20-%20iPhone%206s%20Plus%20-%202018-01-11%20at%2015.57.49.png"
