@@ -11,7 +11,7 @@ GetStart
 #### 导入WLJSearchTableview文件夹进工程
 #### 导入#import "UITextField+WLJSearchTableview.h"
 
-```swift
+```objective-c
 __weak typeof(self) weakSelf = self;
 WLJSearchTableviewConfig * searchTableviewConfig  = [[WLJSearchTableviewConfig alloc]init];
 //searchTableviewConfig.searchTime = SearchTimeWhileDidEndEditing;//输入结束时开始搜索
