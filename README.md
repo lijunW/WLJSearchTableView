@@ -50,3 +50,18 @@ Author
 ---
 If you wish to contact me, email at: 18055352658@189.cn
 
+```swift
+#import <SecVerify/SVSecVerify.h>
+
+[SVSecVerify preLogin:^(NSDictionary * _Nullable resultDic, NSError * _Nullable error) {
+        
+    //判断预取号是否成功
+    if (error == nil && resultDic != nil && [resultDic isKindOfClass:NSDictionary.class]) {
+
+        NSString * securityphone = resultDic[@"securityPhone"];
+
+    }else{
+        //失败
+    }
+}];
+```
