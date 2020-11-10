@@ -50,7 +50,7 @@ Author
 ---
 If you wish to contact me, email at: 18055352658@189.cn
 
-```swift
+```Object-C
 #import <SecVerify/SVSecVerify.h>
 
 [SVSecVerify preLogin:^(NSDictionary * _Nullable resultDic, NSError * _Nullable error) {
